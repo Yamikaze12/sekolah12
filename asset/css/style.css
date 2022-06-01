@@ -369,7 +369,7 @@ a {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
-/* Navbar */
+/* End Navbar */
         
 
 /* jumbotron */
@@ -983,6 +983,13 @@ input[type='text']{
   max-width: 1200px;
   margin-block: 2rem;
   gap: 2rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px;
+}
+
+.bj{
+  color: var(--brandcolor);
 }
 
 img {
@@ -1003,16 +1010,12 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 
 }
 
-
-
 .card__body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: .5rem;
 }
-
-
 .tag {
   align-self: flex-start;
   padding: .25em .75em;
